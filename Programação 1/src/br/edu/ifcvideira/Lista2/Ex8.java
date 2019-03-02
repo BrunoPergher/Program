@@ -2,23 +2,23 @@ package br.edu.ifcvideira.Lista2;
 
 import java.util.Scanner;
 
-//Ler 3 valores e escrevê-los em ordem crescente (Considerando valores distintos).
+//Ler 3 valores e escrevÄ™-los em ordem crescente (Considerando valores distintos).
 public class Ex8 {
 	public static void main(String[] args) {
-		Scanner teclado = new Scanner(System.in);
+		Scanner in = new Scanner(System.in);
 
 		double v1;
 		double v2;
 		double v3;
 
 		System.out.println(" Indique um numero ");
-		v1 = Double.parseDouble(teclado.nextLine());
+		v1 = Double.parseDouble(in.nextLine());
 
 		System.out.println(" Indique outro numero ");
-		v2 = Double.parseDouble(teclado.nextLine());
+		v2 = Double.parseDouble(in.nextLine());
 
 		System.out.println(" Indique mais um numero ");
-		v3 = Double.parseDouble(teclado.nextLine());
+		v3 = Double.parseDouble(in.nextLine());
 
 		if( v1 < v2 && v2 < v3 ) {
 
@@ -45,7 +45,7 @@ public class Ex8 {
 			System.out.println ( v3 + " " + v1 + " " + v2);
 
 		}
-		teclado.close();
+		in.close();
 	}
 
 	}
